@@ -9,7 +9,7 @@ const Navbar = ({ bgColor, color, toggleButton,toggle }) => {
   const bgcolor= color == "black"?"cbc5c5":"black"
   return (
     <>
-      <div className="nav_bar" style={{backgroundColor:`${bgColor}`}}>
+      <div className="nav_bar" style={{backgroundColor:`${bgcolor}`}}>
         <div className="logo" style={{ backgroundColor: `${bgColor}`, color: `${color}` }}>DRR {'  '}
           <div onClick={toggleButton}>
             {toggle?(<BsToggle2On />):
